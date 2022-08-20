@@ -13,9 +13,9 @@ These modules have been tested:
 
 ## Install
 
-On your `child YOOTheme Pro theme` root directory:
-+ create a new `modules` folder
+On your own `child theme` root directory of the main YOOTheme Pro:
 + create a new `config.php` file
++ create a new `modules` folder
 + upload all these modules in the `modules` folder
 + enjoy.
 
@@ -32,6 +32,10 @@ return [];
 
 
 ## How to use
+
+[Extended Post](#extended-post) | [Extended User](#extended-user) | [Menu Items](#menu-items) | [Popular Posts](#popular-posts) | [Sticky Posts](#sticky-posts)
+
+---
 
 ### Extended Post
 
@@ -50,6 +54,8 @@ This field will return:
 + Landscape (default) format: https://www.thecapsule.fr/culture/films-series-culture/blonde-le-nouveau-film-qui-retrace-le-destin-de-marilyn-monroe-50384/
 + Portrait format: https://www.thecapsule.fr/lifestyle/adresses-lifestyle/les-terrasses-parisiennes-preferees-de-la-redaction-thecapsule-48601/
 
+---
+
 ### Extended User
 
 This module allows you to get all social links provided in the User section thanks to [WordPress SEO plugin](https://wordpress.org/plugins/wordpress-seo/).  
@@ -66,6 +72,8 @@ Everywhere with Author contents, you will find a new list of social networks. He
 + Tumblr
 + Wikipedia
 
+---
+
 ### Menu Items
 
 This module allows you to select a WordPress menu as a dynamic content.  
@@ -80,9 +88,13 @@ This option will let you choose a custom WordPress menu and display its items.
 **Examples of use:**
 + The footer is built with this module: https://www.thecapsule.fr/
 
+---
+
 ### Popular Posts
 
 This module makes [WordPress Popular Posts](https://wordpress.org/plugins/wordpress-popular-posts/) plugin works on YOOTheme Pro 2.x until the 3.x version.  
+
+---
 
 ### Sticky Posts
 
