@@ -38,7 +38,16 @@ class StickyPostsQueryType
 
     public static function resolve($root, array $args)
     {
-        $args += ['include' => get_option('sticky_posts')];
+        $stickies = get_option('sticky_posts');
+
+        if (empty($stickies)) {
+            return;
+        }
+
+        $args += [
+            'post__in' => $stickies,
+        ];
+
         return CustomPostQueryType::resolvePosts($root, $args);
     }
 }
